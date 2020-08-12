@@ -1,6 +1,6 @@
 # Brute forces for the best combination of points to buy in Valorant
 
-points = {
+valorant_points = {
     500: 5.49,
     1150: 11.99,
     2150: 21.99,
@@ -9,7 +9,18 @@ points = {
     10500: 99.99,
 }
 
-pontos = 7100
+lol_points = {
+    310: 2.5,
+    650: 5,
+    1380: 10,
+    2800: 20,
+    5000: 35,
+    7200: 50,
+}
+
+points = valorant_points
+
+pontos = 1000
 res = []
 
 for key1, value1 in points.items():
