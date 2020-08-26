@@ -20,7 +20,7 @@ lol_points = {
 
 points = valorant_points
 
-pontos = 1000
+pontos = 7100
 res = []
 
 for key1, value1 in points.items():
